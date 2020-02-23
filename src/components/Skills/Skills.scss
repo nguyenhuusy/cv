@@ -1,0 +1,92 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    background: #f1f2f7;
+
+    .skills-body {
+        display: flex;
+        justify-content: center;
+
+        .skills-body-item {
+            background: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 10px;
+
+            .nav-item::after {
+                content: '';
+                display: inline-block;
+                
+                //top: 50%;
+                //right: 10px;
+                
+                padding:5px 0px;
+                border-top: 0px solid transparent;
+                border-bottom: 0px solid transparent;
+                
+                //transform: translateY(-50%) rotate(90deg);
+            }
+            .nav-item-html::after {
+                margin-left:63px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-css::after {
+                margin-left:75px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-javascript::after {
+                margin-left:30px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-reactjs::after {
+                margin-left:46px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-jquery::after {
+                margin-left:19px;
+                border-left: 20px solid #00cec9;
+                border-right:80px solid #b2bec3;
+            }
+            .nav-item-webapi::after {
+                margin-left:49px;
+                border-left: 40px solid #00cec9;
+                border-right:60px solid #b2bec3;
+            }
+            .nav-item-git::after {
+                margin-left:87px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-video::after {
+                margin-left:21px;
+                border-left: 20px solid #00cec9;
+                border-right:80px solid #b2bec3;
+            }
+            .nav-item-photoshop::after {
+                margin-left:30px;
+                border-left: 20px solid #00cec9;
+                border-right:80px solid #b2bec3;
+            }
+            .nav-item-communication::after {
+                margin-left:22px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-public-speaking::after {
+                margin-left:17px;
+                border-left: 60px solid #00cec9;
+                border-right:40px solid #b2bec3;
+            }
+            .nav-item-teamwork::after {
+                margin-left:62px;
+                border-left: 70px solid #00cec9;
+                border-right:30px solid #b2bec3;
+            }
+        }
+    }
+}

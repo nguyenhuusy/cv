@@ -1,0 +1,42 @@
+a {
+    text-decoration:none;
+}
+
+.header {
+    background: url(https://image.freepik.com/free-photo/blank-white-paper-pencil-eyeglasses-leaves-laptop-beige-backdrop_23-2147979065.jpg) no-repeat;
+    background-size: cover;
+    height:400px;
+    //filter: brightness(50%);
+    background-attachment: fixed;
+    //background-position: 50% 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    .header-text {
+        
+     text-transform: uppercase;
+     font-family: 'Raleway',sans-serif;
+     font-size: 50px;
+     padding: 10px;
+     color: black;
+     line-height: 60px;   
+     
+    }
+    .header-text-1{
+        margin-top:150px;
+    }
+    .header-icon {
+        display:flex;
+    }
+    .icon {
+        //font-size: 30px;
+        width: 40px;
+        height:40px;
+        margin:5px;
+        padding:10px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+}

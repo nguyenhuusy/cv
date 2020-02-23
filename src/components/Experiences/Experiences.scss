@@ -1,0 +1,53 @@
+.experiences{
+    background: #f1f2f7;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    .experiences-body {
+        display:flex;
+        
+        margin: 50px 110px;
+        margin-bottom:0;
+        border-radius:10px;
+        background: white;
+        .experiences-name{
+            display:flex;
+            flex-direction:column;
+            width:50%;
+            text-align: end;
+            padding:20px;
+            .experiences-name-text1{
+                text-transform: uppercase;
+                line-height: 1.1;
+            }
+            .experiences-name-text2{
+                color: #808080;
+            }
+        }
+        .experiences-time{
+            display:flex;
+            flex-direction: column;
+            background: #c0a9ea;
+            width: 250px;
+            text-align: center;
+            height:150px;
+            border: 10px solid #f1f2f7;
+            border-radius: 50%;
+            padding: 10px;
+            justify-content: center;
+            transition: 0.3s;
+            
+            .experiences-time-text {
+                color:white;
+                
+            }
+        }
+        .experiences-time:hover {
+            transform: rotate(360deg);
+        }
+        .experiences-content{
+            padding:20px;
+            width:100%;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.education-body {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top:60px;
+    padding-bottom:20px;
+    margin-top:57px !important;
+    
+    .education-time {
+        width: 101px !important;
+        height: 101px !important;
+        position: absolute;
+        top:-50px;
+        
+        .education-time-text {
+            font-size: 12px;
+        }
+    }
+    .education-name {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:90% !important;
+        border-bottom:1px solid #808080;
+    }
+    
+    .education-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 86px;
+    }
+}
+.education-body-2 {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top:60px;
+    padding-bottom:20px;
+    margin-top:20px !important;
+    .education-time {
+        width: 101px !important;
+        height: 101px !important;
+        position: absolute;
+        top:-50px;
+        
+        .education-time-text {
+            font-size: 12px;
+        }
+    }
+    .education-name {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:90% !important;
+        border-bottom:1px solid #808080;
+    }
+    
+    .education-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 86px;
+    }
+}
