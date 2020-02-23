@@ -13,7 +13,8 @@ class Aboutme extends Component {
                     <div className="summary">
                         <span className="summary-title">Summary</span>
                         <span className="summary-content">Passionate about learning programming languages and making a better life by taking challenges. Having a background of being a solar panel engineer and 3 years of project management has improved my logical mindset and teamwork. I’m detail oriented and a patient person. Favorite quote: Life would be much easier if I had the source code</span>
-                        <button className="summary-button">My CV</button>
+                        {/* <i class="fas fa-file-download"></i> */}
+                        <button className="summary-button fas fa-file-download"><a href="CV-NguyenHuuSy.pdf" style={{color:"white"}} download>My CV</a></button>
                     </div>
                     <div className="contact-infor">
                         <span className="contact-infor-title"> Contact infor</span>
