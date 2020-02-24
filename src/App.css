@@ -13,3 +13,56 @@ body {
   box-shadow: -12px 3px 3px 0 rgba(1, 2, 2, 0.05);
   line-height: 60px;
 }
+@media (max-width:991px) {
+  .skills-body {
+    flex-direction: column;
+    margin: 20px 230px;
+  }
+  .header .header-text-1 {
+    margin-top:80px !important;
+  }
+  .about-me-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me .about-me-body .about-me-ava {
+    width: fit-content !important;
+    display: flex;
+  }
+    .contact-infor {
+      width: 83%;
+      padding: 10px 20px !important;
+      border-top: double;
+      border-radius:0px !important;
+  }
+  .nav-item::after {
+    display:none !important;
+  }
+  .experiences-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experiences-name {
+    text-align:center !important;
+  }
+}
+@media (max-width:420px) {
+  .summary {
+    width:353px;
+  }
+  .contact-infor {
+    width: 353px;
+    }
+    .skills-body {
+      margin:0;
+    }
+    .experiences-body {
+      margin: 20px 0 !important;
+    }
+    .education-content {
+      margin:0 !important;
+    }
+    .header-text {
+      font-size:30px !important;
+    }
+}
