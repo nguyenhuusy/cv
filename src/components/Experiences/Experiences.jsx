@@ -63,9 +63,8 @@ class Experiences extends Component {
                     </div>
                     <div className="experiences-content">
                         <ul>
-                            <li><a href="https://nguyenhuusy.github.io/html.github.io/">HTML Project</a></li>
-                            <li><a href="https://nguyenhuusy.github.io/res.github.io/">Responsive Project</a></li>
-                            <li><a href="https://nguyenhuusy.github.io/reactjs2.github.io/">React project</a></li>
+                            <li>Project use html, css to build website with responsive<div><a href="https://nguyenhuusy.github.io/html.github.io/">HTML Project</a></div></li>
+                            <li>Project insert table with random color and save on redux state <div><a href="https://nguyenhuusy.github.io/ColorfulTiles/">Colorful Tiles Project</a></div></li>
                            
                         </ul>
                         
