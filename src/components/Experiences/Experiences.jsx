@@ -8,13 +8,29 @@ class Experiences extends Component {
                 <div className="title">Experiences</div>
                 <div className="experiences-body">
                     <div className="experiences-name">
-                        <span className="experiences-name-text1">Frogsleap Foundation</span>
-                        <span className="experiences-name-text2">President</span>
+                        <span className="experiences-title">Hybrid Technologies</span>
+                        <span className="experiences-subtitle">Front-End Developer</span>
                     </div>
                     <div className="experiences-time">
-                        <span className="experiences-time-text">2016</span>
-                        <span className="experiences-time-text">-</span>
-                        <span className="experiences-time-text">2020</span>
+                        <span className="experiences-time__text">May 2020</span>
+                        <span className="experiences-time__text">-</span>
+                        <span className="experiences-time__text">Present</span>
+                    </div>
+                    <div className="experiences-content">
+                        <ul>
+                            <li>Project demo 360-Evalution: company and their staffs can evalution their performance via questions and points system.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="experiences-body">
+                    <div className="experiences-name">
+                        <span className="experiences-title">Frogsleap Foundation</span>
+                        <span className="experiences-subtitle">President</span>
+                    </div>
+                    <div className="experiences-time">
+                        <span className="experiences-time__text">2016</span>
+                        <span className="experiences-time__text">-</span>
+                        <span className="experiences-time__text">2020</span>
                     </div>
                     <div className="experiences-content">
                         <ul>
@@ -32,13 +48,13 @@ class Experiences extends Component {
                 </div>
                 <div className="experiences-body">
                     <div className="experiences-name">
-                        <span className="experiences-name-text1">INSPI Co.</span>
-                        <span className="experiences-name-text2">Zenquiz Copy Writer</span>
+                        <span className="experiences-title">INSPI Co.</span>
+                        <span className="experiences-subtitle">Zenquiz Copy Writer</span>
                     </div>
                     <div className="experiences-time">
-                        <span className="experiences-time-text">SEP 2016</span>
-                        <span className="experiences-time-text">-</span>
-                        <span className="experiences-time-text">APR 2017</span>
+                        <span className="experiences-time__text">SEP 2016</span>
+                        <span className="experiences-time__text">-</span>
+                        <span className="experiences-time__text">APR 2017</span>
                     </div>
                     <div className="experiences-content">
                         <ul>
@@ -54,11 +70,11 @@ class Experiences extends Component {
                 </div>
                 <div className="experiences-body">
                     <div className="experiences-name">
-                        <span className="experiences-name-text1">Personal project</span>
+                        <span className="experiences-title">Personal project</span>
                         
                     </div>
                     <div className="experiences-time">
-                        <span className="experiences-time-text">ALL THE TIME</span>
+                        <span className="experiences-time__text">ALL THE TIME</span>
                         
                     </div>
                     <div className="experiences-content">
