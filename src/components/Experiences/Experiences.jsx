@@ -18,7 +18,7 @@ class Experiences extends Component {
                     </div>
                     <div className="experiences-content">
                         <ul>
-                            <li>Project demo 360-Evalution: company and their staffs can envaluate their performance via questions and points system.</li>
+                            <li>Project demo 360-Evalution: company and their staffs can evaluate their performance via questions and points system.</li>
                         </ul>
                     </div>
                 </div>
